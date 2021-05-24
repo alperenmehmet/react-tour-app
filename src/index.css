@@ -1,0 +1,91 @@
+.single-tour {
+  width: 600px;
+  height: auto;
+  margin: auto;
+  box-shadow: 5px 10px #888888;
+  background-color: #8c7b6c;
+  box-shadow: 10px 10px 10px #d9d7d7;
+  /* position: relative; */
+  display: block;
+  border-radius: 3px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 600px;
+  height: 350px;
+}
+
+.btn {
+  width: auto;
+  height: 30px;
+  color: black;
+  background-color: #8c7b6c;
+  border: 2px solid #8c7b6c;
+  border-radius: 5px;
+  opacity: 50%;
+  display: inline-block;
+  text-align: center;
+  font-weight: 600;
+  font-size: medium;
+  text-transform: capitalize;
+}
+.btn-delete {
+  width: auto;
+  height: 30px;
+  color: black;
+  background-color: #8c7b6c;
+  border: 2px solid #8c7b6c;
+  border-radius: 5px;
+  opacity: 50%;
+  display: inline-block;
+  text-align: center;
+  font-weight: 600;
+  font-size: medium;
+  margin-bottom: 3px;
+  text-transform: capitalize;
+  margin: 1rem auto 0 auto;
+  padding: 0.25rem 0.5rem;
+  align-items: center;
+}
+
+.btn:hover {
+  background-color: #bfada3;
+  border: #bfada3;
+}
+
+.btn-delete:hover {
+  background-color: red;
+  border: red;
+  color: white;
+}
+
+body {
+  background-color: #bfada3;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+div h2 {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: #bfab49;
+  text-decoration-thickness: 5px;
+  text-align: center;
+}
+.tour-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.tour-info h4 {
+  margin-bottom: 0;
+}
+
+.tour-price {
+  text-align: right;
+  padding: 0.25rem 0.5rem;
+}
